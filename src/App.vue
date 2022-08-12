@@ -6,15 +6,13 @@ import UserInfo from "./components/UserInfo.vue";
 </script>
 
 <template>
-  <NavBar/>
-
-  <section class="flex w-4/5 mx-auto justify-center">
-    <UserPhoto/>
-    <UserInfo/>
-  </section>
-  <section class="flex w-4/5 mx-auto justify-center">
-    <RouterView />
-  </section>
+  
+  <RouterView />
 
 </template>
 
+<style>
+html {
+    background-color: #fafafa;
+}
+</style>
